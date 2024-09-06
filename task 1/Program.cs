@@ -19,6 +19,7 @@ class Task
 
         GoldenBook golden_book = new GoldenBook(author, title, price);
         Console.WriteLine(golden_book);
+
     }
     public static void Line()
     {
