@@ -72,6 +72,7 @@ namespace task_2
                     Console.WriteLine(ex.Message);
                     Environment.Exit(0);
                 }
+                surname = value;
             }
         }
     }
