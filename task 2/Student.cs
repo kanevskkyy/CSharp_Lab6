@@ -39,7 +39,7 @@ namespace task_2
 
         public override string ToString()
         {
-            return $"\nFirst Name : {Name}\nLast Name : {Surname}\nFaculty number : {Faculty_number}";
+            return $"\nFirst Name : {Name}\nLast Name : {Surname}\nFaculty number : {Faculty_number}\n";
         }
     }
 }

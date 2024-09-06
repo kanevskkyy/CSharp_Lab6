@@ -65,5 +65,10 @@ namespace task_2
             Week_salary = week_salary;
         }
 
+        public override string ToString()
+        {
+            return $"\nFirst Name : {Name}\nLast name : {Surname}\nWeek Salary : {Week_salary:F2}\nHours per day : {Working_hours:F2}\nSalary per hour : {Salary_per_hour():F2}";
+        }
+
     }
 }
