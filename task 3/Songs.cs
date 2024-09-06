@@ -17,6 +17,7 @@ namespace task_3
         {
             ValidateArtistName(artistName);
             ValidateSongName(SongName);
+            ValidateSongLength(Length);
 
             ArtistName = artistName;
             this.SongName = SongName;
